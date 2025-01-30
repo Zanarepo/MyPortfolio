@@ -63,7 +63,7 @@ export default function Experience() {
 
 
   return (
-    <section className="mb-12 p-6 rounded-2xl w-full min-h-screen bg-gray-50">
+    <section className="mb-12 bg-white p-4 rounded-2xl shadow-lg w-full max-w-full mx-auto mt-8">
     <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
       <FaBriefcase className="inline-block text-blue-800 mr-2" /> Work Experience
     </h2>
