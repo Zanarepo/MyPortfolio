@@ -8,10 +8,10 @@ export default function Header() {
     "I’m a proactive Product Manager with 3 years of experience managing product lifecycles, from planning to launch. Skilled in creating roadmaps, managing backlogs, and translating business needs into actionable tasks.";
   const contact = {
     email: "princegekpenyong@gmail.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/prince-ekpenyong/",
     phone: "234-8061325196",
   };
-  const picture = "images/Linkedin.jpg"; // Replace with actual path
+  const picture = "images/profileee.jpg"; // Replace with actual path
 
   return (
     <header className="mb-12 bg-white p-4 rounded-2xl shadow-lg w-full max-w-full mx-auto mt-8">
