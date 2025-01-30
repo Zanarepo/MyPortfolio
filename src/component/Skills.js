@@ -1,14 +1,14 @@
 import { useEffect, useRef } from "react";
 import {
   FaChartLine, FaUsers, FaDatabase, FaClipboardList, FaTasks, FaLightbulb, FaProjectDiagram,
-  FaFigma, FaCodeBranch, FaCogs, FaHandshake, FaLayerGroup, FaFileAlt, FaCog
+  FaFigma,FaUserCheck ,FaCodeBranch, FaList , FaSitemap , FaChartBar , FaCogs, FaHandshake, FaLayerGroup, FaFileAlt, FaCog
 } from "react-icons/fa";
 
 export default function Skills() {
   const skills = [
     { name: "Agile Development", level: 90, icon: <FaChartLine /> },
     { name: "Cross-Functional Collaboration", level: 85, icon: <FaUsers /> },
-    { name: "API Knowledge & Testing (Postman)", level: 75, icon: <FaDatabase /> },
+    { name: "API Skills & Testing (Postman)", level: 75, icon: <FaDatabase /> },
     { name: "Data Analysis", level: 80, icon: <FaClipboardList /> },
     { name: "Data-Driven Mindset", level: 85, icon: <FaLightbulb /> },
     { name: "Decision-Making", level: 80, icon: <FaTasks /> },
@@ -26,6 +26,12 @@ export default function Skills() {
     { name: "Technical Documentation", level: 60, icon: <FaFileAlt /> },
     { name: "Understanding Databases", level: 75, icon: <FaDatabase /> },
     { name: "Version Control (Git)", level: 45, icon: <FaCodeBranch /> },
+    { name: "User Research ", level: 75, icon: <FaUserCheck  /> },
+    { name: "Market Research ", level: 75, icon: <FaChartBar  /> },
+    { name: "Product Strategy  ", level: 75, icon: <FaSitemap   /> },
+    { name: "Backlog Prioritization ", level: 85, icon: <FaList    /> },
+
+     
   ];
 
   const sliderRef = useRef(null);

@@ -18,7 +18,7 @@ export default function Interests() {
         {interests.map((interest, index) => (
           <div
             key={index}
-            className="flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm shadow-md hover:shadow-lg transition-all"
+            className="flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm shadow-md hover:shadow-lg transition-all"
           >
             <span className="mr-2 text-xl">{interest.icon}</span>
             {interest.name}
