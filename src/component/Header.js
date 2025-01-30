@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="mb-12 bg-white p-8 rounded-2xl shadow-lg w-full max-w-4xl mx-auto mt-8">
       {/* Profile Picture */}
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <img
           src={picture}
           alt={name}
@@ -26,7 +26,7 @@ export default function Header() {
 
       {/* Name & Title */}
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800">{name}</h1>
+        <h1 className="text-4xl font-bold text-blue-800">{name}</h1>
         <p className="text-xl text-blue-600 font-medium mt-2">{title}</p>
       </div>
 

@@ -5,7 +5,7 @@ const Mentorship = () => {
   return (
     <div className="mb-12 p-6 rounded-2xl w-full min-h-screen bg-gray-50">
       {/* Title */}
-      <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
+      <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
         Mentorship
       </h2>
 

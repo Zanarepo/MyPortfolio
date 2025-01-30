@@ -13,7 +13,7 @@ export default function Certifications() {
     <section className="mb-12">
       {/* Certifications Header */}
       <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
-        <FaCertificate className="inline-block text-blue-600 mr-2" /> Certifications
+        <FaCertificate className="inline-block text-blue-800 mr-2" /> Certifications
       </h2>
 
       {/* Certifications Cards */}
@@ -22,7 +22,7 @@ export default function Certifications() {
           <div key={index} className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex items-center space-x-2 mb-2">
               {/* Check Circle Icon */}
-              <FaCheckCircle className="text-green-500 text-xl" />
+              <FaCheckCircle className="text-blue-700 text-xl" />
               <p className="text-gray-800">{cert}</p>
             </div>
           </div>

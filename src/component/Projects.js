@@ -24,7 +24,7 @@ export default function Projects() {
       {/* Header */}
       <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
       
-        <FaProjectDiagram className="inline-block text-blue-600 mr-2" />
+        <FaProjectDiagram className="inline-block text-blue-800 mr-2" />
         <span>Personal Projects</span>
       </h2>
       
@@ -41,7 +41,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-            <h3 className="text-xl font-bold text-gray-800">{project.name}</h3>
+            <h3 className="text-xl font-bold text-blue-800">{project.name}</h3>
             <p className="text-gray-600 mt-2">{project.description}</p>
 
             {/* Icons indicating work done */}
