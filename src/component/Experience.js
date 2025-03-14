@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBriefcase, FaCheckCircle, FaBuilding } from "react-icons/fa";
+import { FaBriefcase, FaCheckCircle, FaBuilding, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Experience() {
   const jobs = [
@@ -15,14 +15,9 @@ export default function Experience() {
         "Designed and implemented a product roadmap focused on agile team efficiency.",
         "Conducted extensive market research to identify gaps in sprint planning tools.",
         "Led product development from ideation to execution, ensuring a seamless user experience."
-      ]
+      ],
+      website: "https://www.sprintifyhq.com" // Adding website link
     },
-
-
-
-
-
-
     {
       title: "Senior Product Manager",
       company: "GrowAfrica",
@@ -39,7 +34,6 @@ export default function Experience() {
         "Prioritized bug fixes and resolved issues, improving development accuracy by 20%."
       ]
     },
-
     {
       title: "Product Management Expert (Consultant)",
       company: "Women Radio",
@@ -52,7 +46,6 @@ export default function Experience() {
         "Researched and analyzed their product baseline, resulting in increased listenership and improved engagement."
       ]
     },
-    
     {
       title: "Product Manager",
       company: "Borderless HQ",
@@ -67,7 +60,6 @@ export default function Experience() {
         "Optimized the development process, cutting feature launch time in half."
       ]
     },
-   
     {
       title: "Product Intern",
       company: "Eyowo (Softcom Ltd)",
@@ -80,39 +72,47 @@ export default function Experience() {
         "Conducted user research to inform product design and functionality, contributing to a 25% increase in user satisfaction after updates were implemented."
       ]
     }
-];
-
-
-
+  ];
 
   return (
     <section className="mb-12 bg-white p-4 rounded-2xl shadow-lg w-full max-w-full mx-auto mt-8">
-    <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
-      <FaBriefcase className="inline-block text-blue-800 mr-2" /> Work Experience
-    </h2>
-  
-    {jobs.map((job, index) => (
-      <div key={index} className="mb-6 bg-white p-6 rounded-xl shadow-md  w-full">
-        <div className="flex items-center space-x-3 mb-2">
-          <FaBuilding className="text-blue-800 text-2xl" />
-          <h3 className="text-xl font-bold text-blue-800">{job.title}</h3>
+      <h2 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
+        <FaBriefcase className="inline-block text-blue-800 mr-2" /> Work Experience
+      </h2>
+
+      {jobs.map((job, index) => (
+        <div key={index} className="mb-6 bg-white p-6 rounded-xl shadow-md w-full">
+          <div className="flex items-center space-x-3 mb-2">
+            <FaBuilding className="text-blue-800 text-2xl" />
+            <h3 className="text-xl font-bold text-blue-800">{job.title}</h3>
+          </div>
+          <p className="text-gray-600 mb-1">
+            <span className="font-semibold">{job.company}</span> | {job.dates}
+          </p>
+          <p className="text-gray-700 italic">{job.description}</p>
+
+          <ul className="mt-4 space-y-2">
+            {job.achievements.map((achievement, i) => (
+              <li key={i} className="flex items-center text-gray-700">
+                <FaCheckCircle className="text-blue-700 mr-2" />
+                {achievement}
+              </li>
+            ))}
+          </ul>
+
+          {/* Show website button only for Sprintify */}
+          {job.website && (
+            <a
+              href={job.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center bg-blue-700 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-800 transition-all duration-300"
+            >
+              Visit Sprintify <FaExternalLinkAlt className="ml-2" />
+            </a>
+          )}
         </div>
-        <p className="text-gray-600 mb-1">
-          <span className="font-semibold">{job.company}</span> | {job.dates}
-        </p>
-        <p className="text-gray-700 italic">{job.description}</p>
-  
-        <ul className="mt-4 space-y-2">
-          {job.achievements.map((achievement, i) => (
-            <li key={i} className="flex items-center text-gray-700">
-              <FaCheckCircle className="text-blue-700 mr-2" />
-              {achievement}
-            </li>
-          ))}
-        </ul>
-      </div>
-    ))}
-  </section>
-  
+      ))}
+    </section>
   );
 }
