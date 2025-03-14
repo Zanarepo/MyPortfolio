@@ -4,9 +4,29 @@ import { FaBriefcase, FaCheckCircle, FaBuilding } from "react-icons/fa";
 export default function Experience() {
   const jobs = [
     {
-      title: "Lead Product Manager",
+      title: "Founder & Product Lead",
+      company: "Sprintify",
+      dates: "2024 - Present",
+      description:
+        "A product designed to streamline project sprints and boost team collaboration.",
+      achievements: [
+        "Conceptualized, built, and launched Sprintify, driving a user adoption rate of 10% since launch.",
+        "Increased user engagement with core features by 40% through iterative improvements.",
+        "Designed and implemented a product roadmap focused on agile team efficiency.",
+        "Conducted extensive market research to identify gaps in sprint planning tools.",
+        "Led product development from ideation to execution, ensuring a seamless user experience."
+      ]
+    },
+
+
+
+
+
+
+    {
+      title: "Senior Product Manager",
       company: "GrowAfrica",
-      dates: "Feb 2023 - Present",
+      dates: "Feb 2024 - Present",
       description:
         "An e-commerce platform built to promote made-in-Africa goods.",
       achievements: [
@@ -19,6 +39,20 @@ export default function Experience() {
         "Prioritized bug fixes and resolved issues, improving development accuracy by 20%."
       ]
     },
+
+    {
+      title: "Product Management Expert (Consultant)",
+      company: "Women Radio",
+      dates: "Feb 2024 - Aug 2024",
+      description: "A radio station for women and their families.",
+      achievements: [
+        "Led the optimization of WFM’s product baseline.",
+        "Harmonized their membership platform, leading to increased user engagement and satisfaction.",
+        "Identified key challenges in their product offering and made recommendations that increased listenership ratings by 23%.",
+        "Researched and analyzed their product baseline, resulting in increased listenership and improved engagement."
+      ]
+    },
+    
     {
       title: "Product Manager",
       company: "Borderless HQ",
@@ -33,18 +67,7 @@ export default function Experience() {
         "Optimized the development process, cutting feature launch time in half."
       ]
     },
-    {
-      title: "Product Management Expert (Consultant)",
-      company: "Women Radio",
-      dates: "Feb 2024 - Aug 2024",
-      description: "A radio station for women and their families.",
-      achievements: [
-        "Led the optimization of WFM’s product baseline.",
-        "Harmonized their membership platform, leading to increased user engagement and satisfaction.",
-        "Identified key challenges in their product offering and made recommendations that increased listenership ratings by 23%.",
-        "Researched and analyzed their product baseline, resulting in increased listenership and improved engagement."
-      ]
-    },
+   
     {
       title: "Product Intern",
       company: "Eyowo (Softcom Ltd)",
