@@ -6,7 +6,7 @@ export default function Experience() {
     {
       title: "Founder & Product Lead",
       company: "Sprintify",
-      dates: "2024 - Present",
+      dates: "11/2024 - Present",
       description:
         "A product designed to streamline project sprints and boost team collaboration.",
       achievements: [
@@ -37,7 +37,7 @@ export default function Experience() {
     {
       title: "Product Management Expert (Consultant)",
       company: "Women Radio",
-      dates: "Feb 2024 - Aug 2024",
+      dates: "03/2024 - 09/2024",
       description: "A radio station for women and their families.",
       achievements: [
         "Led the optimization of WFM’s product baseline.",
@@ -63,7 +63,7 @@ export default function Experience() {
     {
       title: "Product Intern",
       company: "Eyowo (Softcom Ltd)",
-      dates: "Feb 2021 - Nov 2022",
+      dates: "01/2021 - 11/ 2022",
       description: "A fintech company.",
       achievements: [
         "Developed barcode-based payment solutions for POS systems, boosting merchant transaction efficiency by 15% through user research, product manager coordination, and seamless developer collaboration.",
