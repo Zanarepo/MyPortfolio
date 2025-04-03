@@ -6,7 +6,7 @@ export default function Experience() {
     {
       title: "Founder & Product Lead",
       company: "Sprintify",
-      dates: "11/2024 - Present",
+      dates: "Nov, 2024 - Present",
       description:
         "A product designed to streamline project sprints and boost team collaboration.",
       achievements: [
@@ -21,7 +21,7 @@ export default function Experience() {
     {
       title: "Senior Product Manager",
       company: "GrowAfrica",
-      dates: "Feb 2024 - Present",
+      dates: "Apr, 2024 - Present",
       description:
         "An e-commerce platform built to promote made-in-Africa goods.",
       achievements: [
@@ -37,7 +37,7 @@ export default function Experience() {
     {
       title: "Product Management Expert (Consultant)",
       company: "Women Radio",
-      dates: "03/2024 - 09/2024",
+      dates: "March. 2024 - Sep, 2024",
       description: "A radio station for women and their families.",
       achievements: [
         "Led the optimization of WFM’s product baseline.",
@@ -47,9 +47,11 @@ export default function Experience() {
       ]
     },
     {
+
+ 
       title: "Product Manager",
       company: "Borderless HQ",
-      dates: "Apr 2022 - Mar 2024",
+      dates: "Feb, 2022 - Mar, 2024",
       description:
         "A platform improving real-time delivery tracking and user engagement.",
       achievements: [
@@ -60,10 +62,12 @@ export default function Experience() {
         "Optimized the development process, cutting feature launch time in half."
       ]
     },
+
+ 
     {
       title: "Product Intern",
       company: "Eyowo (Softcom Ltd)",
-      dates: "01/2021 - 11/ 2022",
+      dates: "01/2020 - 11/ 2021",
       description: "A fintech company.",
       achievements: [
         "Developed barcode-based payment solutions for POS systems, boosting merchant transaction efficiency by 15% through user research, product manager coordination, and seamless developer collaboration.",
