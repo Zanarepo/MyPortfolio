@@ -3,21 +3,23 @@ import { FaBriefcase, FaCheckCircle, FaBuilding, FaExternalLinkAlt } from "react
 
 export default function Experience() {
   const jobs = [
-    {
-      title: "Founder & Product Lead",
-      company: "Sprintify",
-      dates: "Nov, 2024 - Present",
-      description:
-        "A product designed to streamline project sprints and boost team collaboration.",
-      achievements: [
-        "Conceptualized, built, and launched Sprintify, driving a user adoption rate of 10% since launch.",
-        "Increased user engagement with core features by 40% through iterative improvements.",
-        "Designed and implemented a product roadmap focused on agile team efficiency.",
-        "Conducted extensive market research to identify gaps in sprint planning tools.",
-        "Led product development from ideation to execution, ensuring a seamless user experience."
-      ],
-      website: "https://www.sprintifyhq.com" // Adding website link
-    },
+   {
+  title: "Founder & Product Lead",
+  company: "Sellytics",
+  dates: "Nov, 2024 - Present",
+  description:
+    "Developed and executed product strategy for a web-based inventory and retail management platform, leading GTM strategy and increasing customer acquisition & onboarding from 0% to 15% in the 2nd quarter.",
+  achievements: [
+    "Integrated Paystack payment APIs using Swagger/OpenAPI for documentation and Postman for testing, ensuring PCI-DSS compliance and improving transaction success rates by 35%.",
+    "Formulated product roadmaps and prioritized projects via Jira, collaborating with engineering, sales, and marketing teams to reduce feature delivery time by 25%.",
+    "Conducted user research and A/B testing with Maze to optimize payment flow UX, increasing onboarding activation by 40%.",
+    "Defined and managed data collection, storage, and retention processes, ensuring compliance with data protection standards and secure third-party data sharing.",
+    "Monitored SLAs/KPIs (uptime, latency) using Mixpanel and Google Analytics, enhancing platform stability and stakeholder trust.",
+    "Led GTM strategy and customer acquisition, increasing customers from 0% to 15% in 3 months."
+  ],
+  website: "https://www.sellytics.sprintifyhq.com"
+},
+
     {
       title: "Senior Product Manager",
       company: "GrowAfrica",
