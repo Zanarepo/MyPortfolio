@@ -17,7 +17,7 @@ export default function Experience() {
     "Monitored SLAs/KPIs (uptime, latency) using Mixpanel and Google Analytics, enhancing platform stability and stakeholder trust.",
     "Led GTM strategy and customer acquisition, increasing customers from 0% to 15% in 3 months."
   ],
-  website: "https://www.sellytics.sprintifyhq.com"
+  website: "https://sellytics.sprintifyhq.com/"
 },
 
     {
@@ -114,9 +114,9 @@ export default function Experience() {
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center bg-blue-700 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-800 transition-all duration-300"
             >
-              Visit Sprintify <FaExternalLinkAlt className="ml-2" />
+              Visit Sellytics <FaExternalLinkAlt className="ml-2" />
             </a>
-          )}
+          )}``
         </div>
       ))}
     </section>
